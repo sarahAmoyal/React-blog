@@ -1,0 +1,17 @@
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.registerForm > label {
+  margin: 10px 0;
+  font-size: 20px;
+}
+.registerInput {
+  width: 300px;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}

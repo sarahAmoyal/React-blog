@@ -1,0 +1,30 @@
+.box {
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+}
+.aboutImag {
+  width: 600px;
+}
+@media (max-width: 600px) {
+  .aboutImag {
+    display: none;
+  }
+}
+.heading {
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: "Lora", serif;
+}
+
+.aboutText {
+  margin-top: 40px;
+  font-family: "Varela", sans-serif;
+  padding: 20px;
+  width: 700px;
+}
+@media (max-width: 600px) {
+  .aboutText {
+    width: 300px;
+  }
+}

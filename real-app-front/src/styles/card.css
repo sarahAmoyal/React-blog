@@ -1,0 +1,68 @@
+.card {
+  width: 385px;
+  margin: 0px 25px 40px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardImg {
+  width: 385px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardTitle {
+  font-family: "Lora", serif;
+
+  font-size: 24px;
+  line-height: 20px;
+  margin-top: 15px;
+  font-weight: 900;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/* .cardDate {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 13px;
+  font-weight: 400;
+  color: #999999;
+  margin-top: 15px;
+} */
+
+.cardDesc {
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #444444;
+  margin-top: 15px;
+  /* overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical; */
+}
+.cardIcons {
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.cardIcons .favoriteP{
+  font-size: 15px;
+  padding: 2px;
+}
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+  color: teal;
+}
